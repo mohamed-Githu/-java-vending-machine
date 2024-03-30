@@ -31,7 +31,7 @@ public class Main {
         }
 
         int dollarCoins = changeDueInPennies / PENNIES_PER_DOLLAR;
-        System.out.printf("%nDollar Coins: %3d%n", dollarCoins);
+        System.out.printf("%nDollar Coins: %4d%n", dollarCoins);
         changeDueInPennies %= PENNIES_PER_DOLLAR;
 
         int quarterCoins = changeDueInPennies / PENNIES_PER_QUARTER;
